@@ -1,0 +1,52 @@
+/* ADD YOUR STYLES HERE */
+table.tablePad, table#usageTbl {
+	width: 100%;
+}
+.tablePad td,
+.tablePad th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+.tablePad tr,
+.tablePad thead {
+	border-bottom: 1px solid silver;
+}
+.tablePad tr:last-child {
+	border-bottom: 0px;
+}
+table#followers {
+	width: 220px;
+	border-top: 1px solid silver;
+	border-bottom: 1px solid silver;
+}
+table#followers td {
+	padding: 20px;
+}
+.headerNum {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+.smallTxt {
+	text-align: center;
+	font-size: .8em;
+	color: silver;
+}
+#usageTbl th {
+	width: 90px;
+	height: 21px;
+	text-align: right;
+	padding-right: 13px;
+}
+#usageTbl td {
+	height: 23px;
+	font-size: .9em;
+}
+.usagePercent {
+	background-color: #689EDE;
+	color: #fff;	
+	height: 100%;
+	padding-top: 3px;
+	padding-left: 8px;
+	border-radius: 4px;
+}
