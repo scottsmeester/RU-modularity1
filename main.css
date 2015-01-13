@@ -32,11 +32,13 @@ table#followers td {
 	font-size: .8em;
 	color: silver;
 }
+/*bar charts*/
 #usageTbl th {
 	width: 90px;
 	height: 21px;
 	text-align: right;
 	padding-right: 13px;
+	/*white-space: nowrap;*/
 }
 #usageTbl td {
 	height: 23px;
@@ -49,4 +51,37 @@ table#followers td {
 	padding-top: 3px;
 	padding-left: 8px;
 	border-radius: 4px;
+}
+/*lightbox*/
+.lBContain {
+	background-color: rgba(0,0,0,.7);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.lBFloater {
+	width: 600px;
+	margin: auto;
+	background-color: #fff;
+	margin-top: 33%;
+	border-radius: 10px;
+
+}
+.lBWhiteBox {
+	padding: 20px;
+	padding-bottom: 50px;
+}
+div#closeBtn {
+	float: right;
+	text-align: center;
+	background-color: #E6848B;
+	border-radius: 6px;
+	padding: 7px 30px;
+}
+a.closeBtn {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
 }
