@@ -57,7 +57,7 @@ table#followers td {
 	background-color: rgba(0,0,0,.7);
 	width: 100%;
 	height: 100%;
-	position: fixed;
+	/*position: fixed;*/
 	top: 0;
 	left: 0;
 }
@@ -84,4 +84,12 @@ a.closeBtn {
 	color: white;
 	text-decoration: none;
 	font-weight: bold;
+}
+/*media block*/
+.floatLft {
+	float: left;
+	margin-right: 10px;
+}
+.mediaTxt {
+	overflow: hidden;
 }
